@@ -1,0 +1,33 @@
+// import styles for components
+@import './components/header/navbar';
+@import './components/main/main';
+@import './components/main/cards/card-snikers';
+@import './components/footer/footer';
+@import './components/main/about';
+@import './components/product/product';
+@import './components/product/productSubscribe';
+@import './components/main/cards/cart';
+@import './components/sideBar/sideBar';
+
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Syne:wght@500&display=swap');
+
+// reset style
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	// main bg for body
+	background: #181818;
+  // height: 100%;
+  // overflow-x: hidden;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 1212px;
+	margin: 0 auto;
+}
