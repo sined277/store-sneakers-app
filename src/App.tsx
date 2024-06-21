@@ -8,6 +8,7 @@ import { Cart } from './components/Cart/Cart'
 
 
 export const App: React.FC = () => {
+	
 	return (
 		<BrowserRouter>
 			<Routes>
